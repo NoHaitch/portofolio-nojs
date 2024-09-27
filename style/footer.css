@@ -3,7 +3,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .footer-container {
@@ -47,8 +48,25 @@ footer {
 
 .social-logo {
   color: rgb(161, 161, 170);
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.social-logo:hover {
+  color: rgb(221, 221, 233);
+}
+
+
+.emails {
+  color: rgb(161, 161, 170);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 8px;
 }
 
 .copyright {

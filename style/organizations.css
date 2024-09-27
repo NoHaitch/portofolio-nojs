@@ -35,6 +35,7 @@
   margin-right: 15px;
   width: 50px;
   height: auto;
+  object-fit: cover;
 }
 
 .organizations li h2 {
@@ -48,7 +49,7 @@
 }
 
 .organizations li:hover {
-  background-color: rgba(0, 0, 0, 0.40  );
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .organizations li.active h2 {
@@ -64,4 +65,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
