@@ -1,0 +1,67 @@
+.organizations {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.organizations h1 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+  margin-bottom: 24px;
+}
+
+.organizations ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.organizations li {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+.organizations li img {
+  margin-right: 15px;
+  width: 50px;
+  height: auto;
+}
+
+.organizations li h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.organizations li p {
+  font-size: 0.8em;
+  color: #95a5a6;
+}
+
+.organizations li:hover {
+  background-color: rgba(0, 0, 0, 0.40  );
+}
+
+.organizations li.active h2 {
+  color: rgb(223, 181, 90);
+}
+
+.organizations li.finished h2 {
+  color: #95a5a6;
+}
+
+@media (min-width: 768px) {
+  .organizations ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

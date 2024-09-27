@@ -11,6 +11,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  z-index: 50;
 }
 
 header nav {
@@ -106,4 +107,19 @@ input[type="checkbox"] {
     backdrop-filter: blur(5px);
     border-radius: 16px;
   }
+}
+
+#organizations {
+  visibility: none;
+  transform: translateY(-100px);
+}
+
+#projects {
+  visibility: none;
+  transform: translateY(-100px);
+}
+
+#about {
+  visibility: none;
+  transform: translateY(-100px);
 }

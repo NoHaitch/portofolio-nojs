@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact h1 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+}
+
+.contact p {
+  color: rgb(161, 161, 170);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.contact p a {
+  color: rgb(161, 161, 170);
+  text-decoration: underline;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.form-inputs {
+  display: grid;
+  grid-column: 1;
+  gap: 1.5rem;
+  background-color: red;
+}

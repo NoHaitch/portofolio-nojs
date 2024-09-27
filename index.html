@@ -6,8 +6,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="style/base.css" />
     <link rel="stylesheet" href="style/header.css" />
-    <link rel="stylesheet" href="style/footer.css" />
     <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/about.css" />
+    <link rel="stylesheet" href="style/projects.css" />
+    <link rel="stylesheet" href="style/organizations.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+    <link rel="stylesheet" href="style/footer.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,17 +44,17 @@
           </label>
 
           <div class="menu">
-            <a href="#">Skills</a>
-            <a href="#">Project</a>
-            <a href="#">Activites</a>
-            <a href="/contact.html">Contact</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#organizations">organizations</a>
+            <a href="#socials">Contact</a>
           </div>
         </div>
       </nav>
     </header>
     <main>
       <div class="container">
-        <section class="hero">
+        <section class="hero" id="hero">
           <div class="hero-content">
             <div class="hero-text">
               <h1>Francisco Trianto</h1>
@@ -65,17 +69,141 @@
             Staff of Academic Division HMIF ITB 2024/2025 |
           </p>
         </section>
+        <section class="about">
+          <span id="about"></span>
+          <h1>About Me</h1>
+          <div class="about-content">
+            <img src="asset/images/about.JPG" alt="About me" />
+            <div class="about-content-texts">
+              <h2>Call me Ciko!</h2>
+              <p>
+                I am the person you can count on to have a good time without
+                losing sight of what's important. I'm a responsible, open-minded
+                person who's always up for exploring new ideas and experiences.
+                I believe in living life to the fullest while staying focused on
+                my goals for the future.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <span id="projects"></span>
+          <h1>Projects</h1>
+          <div class="carousel">
+            <div>
+              <ul>
+                <li>
+                  <img
+                    src="asset/projects/fingerprint-biometric-detection.png"
+                    alt="Fingerprint Biometric Detection"
+                  />
+                  <div class="card-content">
+                    <h2>Fingerprint Biometric Detection</h2>
+                    <p>
+                      Fingerprint biometric detection using KMP and BM
+                      algorithm. The program first convert the fingerprint into
+                      a binary image, using the binary data then get converted
+                      into ASCII. Using this ASCII and patern matching
+                      algorithm, we can then match fingerprints.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="asset/projects/Pilkehi_Hima_Ilkom_Unpad_2021.png"
+                    alt="Pilkehi Hima Ilkom Unpad"
+                  />
+                  <div class="card-content">
+                    <h2>Web Dev for Pilkehi Hima Ilkom Unpad 2021</h2>
+                    <p>
+                      Freelance, made a website for the Election of Students
+                      Association Chairman of Hima Ilkom Unpad. This was made by
+                      a team of two people. I was mostly focused on the design
+                      and backend part of this website.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img
+                    src="asset/projects/password-game.png"
+                    alt="Password Game"
+                  />
+                  <div class="card-content">
+                    <h2>Password Game</h2>
+                    <p>
+                      Password Game Web Application using react tailwind and
+                      golang with firebase authentication. Inspired by the
+                      original by neal.fun but modified by adding many
+                      additional features.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="organizations">
+          <span id="organizations"></span>
+          <h1>Organizations</h1>
+          <div>
+            <ul>
+              <li class="active">
+                <img src="asset/experience/hmif.jpeg" alt="HMIF ITB" />
+                <div>
+                  <h2>Divisi Akademik HMIF ITB 2024/2025</h2>
+                  <p>Juni 2024 - Saat ini</p>
+                </div>
+              </li>
+              <li class="active">
+                <img src="asset/experience/ubv.jpg" alt="UBV ITB" />
+                <div>
+                  <h2>Badan Pengurus Divisi UBV ITB 2024/2025</h2>
+                  <p>Mei 2024 - Saat ini</p>
+                </div>
+              </li>
+              <li class="finished">
+                <img src="asset/experience/hmif.jpeg" alt="HMIF ITB" />
+                <div>
+                  <h2>Materi dan Metode SPARTA HMIF ITB 2023</h2>
+                  <p>Juni 2024 - September 2024</p>
+                </div>
+              </li>
+              <li class="finished">
+                <img src="asset/experience/hmif.jpeg" alt="HMIF ITB" />
+                <div>
+                  <h2>MSDM Wisuda Oktober HMIF ITB 2023</h2>
+                  <p>September 2023 - November 2023</p>
+                </div>
+              </li>
+              <li class="finished">
+                <img src="asset/experience/ubv.jpg" alt="UBV ITB" />
+                <div>
+                  <h2>Materi, Metode, dan Acara PAB UBV 2023/2024</h2>
+                  <p>Agustus 2023 - Mei 2024</p>
+                </div>
+              </li>
+              <li class="finished">
+                <img src="asset/experience/fcc.png" alt="FCC SMAN 5 Bandung" />
+                <div>
+                  <h2>Ketua Developer FCC SMAN 5 Bandung</h2>
+                  <p>Agustus 2023 - Mei 2024</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
     <footer>
       <div class="footer-container">
         <ul class="quick-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#organizations">organizations</a></li>
+          <li><a href="#socials">Contact</a></li>
         </ul>
-        <div class="socials">
+        <div class="socials" id="socials">
           <!-- Instagram -->
           <a href="https://www.instagram.com/francisco.rftb/">
             <svg
@@ -120,6 +248,7 @@
           </a>
         </div>
         <div class="copyright">
+          <p>franciscotrianto@gmail.com</p>
           <p>&copy; 2024 Francisco Trianto. All rights reserved.</p>
         </div>
       </div>
