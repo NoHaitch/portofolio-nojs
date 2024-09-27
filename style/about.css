@@ -29,6 +29,12 @@
   margin: 8px;
 }
 
+@media (max-width: 768px) {
+  .about img{
+    width: 70%;
+  }
+}
+
 .about-content-texts {
   max-width: 10240px;
 }
