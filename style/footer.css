@@ -47,15 +47,22 @@ footer {
 }
 
 .social-logo {
-  color: rgb(161, 161, 170);
   width: 1.75rem;
   height: 1.75rem;
 }
 
-.social-logo:hover {
-  color: rgb(221, 221, 233);
+.social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(161, 161, 170);
+  font-size: 0.7rem;
 }
 
+.social-container:hover {
+  color: rgb(221, 221, 233);
+}
 
 .emails {
   color: rgb(161, 161, 170);
