@@ -27,6 +27,7 @@ footer {
   flex-wrap: wrap;
   gap: 10px;
   padding: 0;
+  justify-content: center;
 }
 
 .quick-nav a {
